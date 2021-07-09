@@ -16,7 +16,7 @@ config :counter, CounterWeb.Endpoint,
   secret_key_base: "BaBUwAZaUUc5N/3w3JiA7RoVu2zOPgHA5EK9sG3WN4gNgVa7vwqcGsetTiXo8vwY",
   render_errors: [view: CounterWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Counter.PubSub,
-  live_view: [signing_salt: "8diX95rX"]
+  live_view: [signing_salt: "QZ+PszHjR5EY+dpjY9AmhTWINOfhlxKp"]
 
 # Configures Elixir's Logger
 config :logger, :console,

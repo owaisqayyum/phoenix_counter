@@ -24,6 +24,7 @@ defmodule CounterWeb do
       import Plug.Conn
       import CounterWeb.Gettext
       alias CounterWeb.Router.Helpers, as: Routes
+      import Phoenix.LiveView.Controller
     end
   end
 
